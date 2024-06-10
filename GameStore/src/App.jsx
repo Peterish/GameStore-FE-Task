@@ -111,16 +111,16 @@ const App = () => {
 
 
   return (
-    <div style={{ backgroundImage: 'url("https://img.freepik.com/free-photo/high-angle-controllers-headphones_23-2149829136.jpg?w=1800&t=st=1717955166~exp=1717955766~hmac=fc8f0fa2bf38f7cf4816ebcca2cfd4bfa8fbe328ec1a37a5b7d8541a5caa9b6a' }} className="bg-[#1a1a1a] bg-cover bg-center min-h-[100vh] w-[100%] bg-blend-overlay flex justify-center items-center text-white">
-      <div className="lg:w-[50%] md:w-[50%] w-[100%] mx-auto">
-        <h1 className="font-bold lg:text-[4rem] md:text-[4rem] text-[2rem] mt-2">Welcome to <span className="text-[#9C27B0] drop-shadow-md">GameStore</span></h1>
-        <p className="text-center lg:text-[1.2rem] md:text-[1.2rem] text-[.9rem] mb-8">Trade premium virtual game accessories</p>
-        <section className="flex flex-col lg:flex-row md:flex-row lg:w-[60%] mx-auto justify-between md:w-[60%] w-[100%]">
-          <div>
+    <div style={{ backgroundImage: 'url("https://img.freepik.com/free-photo/high-angle-controllers-headphones_23-2149829136.jpg?w=1800&t=st=1717955166~exp=1717955766~hmac=fc8f0fa2bf38f7cf4816ebcca2cfd4bfa8fbe328ec1a37a5b7d8541a5caa9b6a' }} className="bg-[#1a1a1a] bg-cover bg-center min-h-[100vh] w-[100%] bg-blend-overlay flex justify-center items-center text-white max-w-[1440px] mx-auto">
+      <div className="lg:w-[50%] md:w-[50%] w-[90%] mx-auto">
+        <h1 className="font-bold lg:text-[4rem] md:text-[4rem] text-[2rem] mt-2 text-center">Welcome to <span className="text-[#9C27B0] drop-shadow-md">GameStore</span></h1>
+        <p className="text-center lg:text-[1.2rem] md:text-[1.2rem] text-[.9rem] mb-8 text-center">Trade premium virtual game accessories</p>
+        <section className="flex flex-col lg:flex-row md:flex-row lg:w-[70%] mx-auto justify-between md:w-[60%] w-[100%] flex-wrap">
+          <div className="md:w-[45%] lg:w-[31%] w-[90%] mx-auto">
           <button
             data-ripple-light="true"
             data-dialog-target="dialog"
-            className="select-none rounded-lg bg-gradient-to-tr from-[#9C27B0] to-gray-800 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            className="w-[100%] mb-4 select-none rounded-lg bg-gradient-to-tr from-[#9C27B0] to-gray-800 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
             onClick={handleShowModal}
           >
             Add Product
@@ -151,11 +151,11 @@ const App = () => {
             </div>
           )}
           </div>
-          <div>
+          <div className="md:w-[45%] lg:w-[31%] w-[90%] mx-auto">
           <button
             data-ripple-light="true"
             data-dialog-target="dialog"
-            className="select-none rounded-lg bg-gradient-to-tr from-[#9C27B0] to-gray-800 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            className="w-[100%] mb-4  select-none rounded-lg bg-gradient-to-tr from-[#9C27B0] to-gray-800 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
             onClick={handleBuy}
           >
             Buy Product
@@ -186,9 +186,9 @@ const App = () => {
             </div>
           )}
           </div>
-          <div>
+          <div className="md:w-[45%] lg:w-[31%] w-[90%] mx-auto">
           <button
-            className="select-none rounded-lg bg-gradient-to-tr from-[#9C27B0] to-gray-800 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            className="w-[100%] mb-4  select-none rounded-lg bg-gradient-to-tr from-[#9C27B0] to-gray-800 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           onClick={handleAllProduct}>
            All Product
           </button>
